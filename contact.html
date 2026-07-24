@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดต่อเรา - Parlo Card Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">Parlo Card Shop</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item">หน้าหลัก</a></li>
+                <li><a href="menu.html" class="nav-item">สินค้า/บริการ</a></li>
+                <li><a href="contact.html" class="nav-item active">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>ติดต่อ Parlo Card Shop</h1>
+            <p>สอบถามข้อมูลการ์ดเกม ปรึกษาการจัดเด็ค หรือสอบถามสินค้าได้เลยครับ</p>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info-section">
+            <div class="contact-info-card">
+                <p><strong>ที่อยู่ร้าน:</strong> 000 ถนน xxxxxxxxxxxxxx จังหวัด xxxx</p>
+                <p><strong>อีเมล:</strong> xxxxxx@gmail.com</p>
+                <p><strong>เบอร์โทรศัพท์:</strong> 000-000-0000</p>
+                <p><strong>เวลาทำการ:</strong> จันทร์ - อาทิตย์ (10:00 - 20:00 น.)</p>
+            </div>
+        </section>
+
+        <!-- Contact Form (4 ช่องครบตามโจทย์) -->
+        <section class="contact-form-section">
+            <form class="contact-form" action="#">
+                <div class="form-group">
+                    <label for="name">ชื่อของคุณ:</label>
+                    <input type="text" id="name" placeholder="กรอกชื่อของคุณ" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">อีเมล:</label>
+                    <input type="email" id="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">หัวข้อเรื่อง:</label>
+                    <input type="text" id="subject" placeholder="ระบุหัวข้อสอบถาม" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">ข้อความ:</label>
+                    <textarea id="message" rows="4" placeholder="พิมพ์ข้อความที่นี่..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">ส่งข้อความ</button>
+            </form>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4638.155902512496!2d100.53551226273409!3d13.714513152070024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f35d9bdff0d%3A0x8ec79fdd80befa7a!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LmA4LiX4LiE4LmC4LiZ4LmC4Lil4Lii4Li14Lij4Liy4LiK4Lih4LiH4LiE4Lil4LiB4Lij4Li44LiH4LmA4LiX4Lie!5e1!3m2!1sth!2sth!4v1784456252005!5m2!1sth!2sth" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-info">
+            <p><strong>Parlo Card Shop</strong> </p>
+        </div>
+        <p class="copyright">&copy; 2026 Parlo Card Shop. | Designed by ภูผา </p>
+    </footer>
+</body>
+</html>
